@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Outfit:wght@400;700&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap");
+
+.main {
+  width: 350px;
+  height: 596px;
+  background-color: #15263f;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #0d192c;
+}
+
+.flex-container1 {
+  display: flex;
+  position: relative;
+  top: 24px;
+  left: 24px;
+  bottom: 24px;
+  margin: 0 auto;
+}
+.image1 {
+  position: relative;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+}
+
+.image2 {
+  visibility: hidden;
+}
+
+.image1:hover + .overlay + .image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 30px;
+  padding-top: 136px;
+  padding-bottom: 136px;
+  padding-left: 129px;
+  padding-right: 129px;
+  border-radius: 8px;
+  background-color: rgba(90, 187, 211, 0.5);
+  visibility: visible;
+  margin: 0 auto;
+}
+
+
+h1 {
+  text-align: left;
+  padding-top: 0;
+  padding-left: 24px;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27.72px;
+  color: white;
+  margin-top: 50px;
+}
+
+p {
+  text-align: left;
+  padding-top: 0;
+  padding-left: 24px;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #8bacd9;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 20px;
+  width: 95%;
+  padding-left: 24px;
+  max-width: 100%;
+}
+
+.diamondtext {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 600;
+  width: 75px;
+  height: 20px;
+  color: #00fff8;
+  margin-right: 115px;
+  margin-left: 0px;
+  margin-bottom: 16px;
+}
+
+.clocktext {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 600;
+  width: 75px;
+  height: 20px;
+  color: #8bacd9;
+}
+hr {
+  margin-bottom: 0px;
+  width: 278px;
+}
+#footer {
+  padding-left: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#avatar {
+  width: 33px;
+  height: 33px;
+  border: 1px solid;
+  border-color: #ffffff;
+  max-width: 10%;
+  border-radius: 15px;
+}
+
+hr {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+.creation {
+  width: 81px;
+  height: 20px;
+  color: #8bacd9;
+  font-size: 16px;
+  font-family: Outfit;
+  line-height: 20px;
+  margin-left: 16px;
+}
+
+.author {
+  width: 93px;
+  height: 20px;
+  color: white;
+  font-size: 16px;
+  font-family: Outfit;
+  line-height: 20px;
+  margin-left: 5px;
+}
+
+h1:hover {
+  color: #00fff8;
+}
+
+.author:hover {
+  color: #00fff8;
+}
